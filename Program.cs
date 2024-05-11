@@ -43,6 +43,6 @@
         if (saldoVitorias >= 91 && saldoVitorias <= 100) nivel = Nivel.Lendário.ToString();
         if (saldoVitorias >= 101) nivel = Nivel.Imortal.ToString();
 
-        Console.WriteLine($"O Herói tem de saldo de {saldoVitorias} vitórias e está no nível de {nivel}");
+        Console.WriteLine($"O Herói tem saldo de {saldoVitorias} vitórias e está no nível de {nivel}");
     }
 }
